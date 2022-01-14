@@ -1,0 +1,38 @@
+//base typography
+
+h1{
+    font-family: $playfair;
+    font-weight: $black-italic;
+    font-size: $xx-large;
+    font-style: $black-italic;
+    color: $white
+}
+h2{
+    font-family: $playfair;
+    font-weight: $regular;
+    font-size: $x-large;
+    font-style: italic;
+}
+h3{
+    font-family: $playfair;
+    font-weight: $rlight;
+    font-size: large;
+}
+h4{
+    font-family: $roboto;
+    font-weight: $rlight;
+    font-size: large;
+    color:$ruddy-pink;
+}
+h5{
+    font-family: $playfair;
+    font-weight: $regular;
+    font-size: $medium;
+    color: $nickel;
+}
+p{
+    font-family: $roboto;
+    font-weight: $rlight;
+    font-size: $large;
+    color: $nickel;
+}

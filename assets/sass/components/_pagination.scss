@@ -1,0 +1,26 @@
+.sectionpaginator{
+    background-color:$platinum;
+    height: 9rem;
+    &sectionpaginator__nav, ul, li{
+        color:$eerie-black;
+
+    }
+}
+
+.page-link{
+    color:$eerie-black;
+    &:hover{
+        background-color: $nickel;
+        color:$white;
+        border-color: $eerie-black;
+    }
+}
+.activa{
+    background-color: $nickel;
+    color:$white;
+}
+.pagination .page-item:first-child a.page-link{
+    margin-left: 0;
+    border-top-left-radius: 1.25rem;
+    border-bottom-left-radius:1.25rem ;
+}

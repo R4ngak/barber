@@ -1,0 +1,26 @@
+//main.scss Archivo Manifiesto
+
+//abstracts
+@import "abstracts/variables";
+@import "abstracts/mixis";
+
+//vendors
+@import "vendors/bootstrap-5/bootstrap.scss";
+//base
+@import "base/base";
+@import "base/reset";
+@import "base/typography";
+//layout
+@import "layout/header";
+@import "layout/main-section";
+@import "layout/footer";
+//components
+@import "components/buttons";
+@import "components/pagination";
+//pages
+//themes
+
+//sass --watch assets/sass/main.scss:assets/css/main.css  para compilar
+
+
+
